@@ -1,9 +1,15 @@
 import React from "react";
-import logo from "./logo.svg";
-import "./App.css";
+import Header from "./components/Header";
+import "./scss/_modules.scss";
 
 function App() {
-  return <div className='App'></div>;
+  return (
+    <div className='app'>
+      <div id='meme-chart'>
+        <Header title={"Meme Charts"} />
+      </div>
+    </div>
+  );
 }
 
 export default App;
