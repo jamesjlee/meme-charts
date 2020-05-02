@@ -1,12 +1,13 @@
 import React from "react";
-import Header from "./components/Header";
 import "./scss/_modules.scss";
+
+import ChartContainer from "./containers/Chart/ChartContainer";
 
 function App() {
   return (
     <div className='app'>
       <div id='meme-chart'>
-        <Header title={"Meme Charts"} />
+        <ChartContainer />
       </div>
     </div>
   );
